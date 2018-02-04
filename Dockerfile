@@ -10,8 +10,9 @@ RUN apt-get update && \
 
 COPY entrypoint.sh /entrypoint.sh
 COPY update.sh /update.sh
-RUN chmod +x /entrypoint.sh && \
-    chmod +x /update.sh && \
+
+RUN chmod +x /update.sh && \
+    chmod +x /entrypoint.sh && \
     /update.sh
 
 COPY DefaultGame.ini /LinuxServer/
