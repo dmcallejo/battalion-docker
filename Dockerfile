@@ -13,6 +13,7 @@ COPY update.sh /update.sh
 
 RUN chmod +x /update.sh && \
     chmod +x /entrypoint.sh && \
+    sleep 1 && \
     /update.sh
 
 COPY DefaultGame.ini /LinuxServer/
