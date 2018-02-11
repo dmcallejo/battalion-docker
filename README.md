@@ -1,7 +1,7 @@
 # battalion-docker
 Dockerized Self-Updating Battalion 1944 Community Dedicated Server.
 
-[![Docker Build Status](https://img.shields.io/docker/build/dmcallejo/battalion-docker.svg)]() [![Docker Pulls](https://img.shields.io/docker/pulls/dmcallejo/battalion-docker.svg)]() [![Docker Automated build](https://img.shields.io/docker/automated/dmcallejo/battalion-docker.svg)]() [![Docker Stars](https://img.shields.io/docker/stars/dmcallejo/battalion-docker.svg)]()
+[![Docker Build Status](https://img.shields.io/docker/build/dmcallejo/battalion-docker.svg)](https://hub.docker.com/r/dmcallejo/battalion-docker/builds/) [![Docker Pulls](https://img.shields.io/docker/pulls/dmcallejo/battalion-docker.svg)](https://hub.docker.com/r/dmcallejo/battalion-docker/) [![Docker Automated build](https://img.shields.io/docker/automated/dmcallejo/battalion-docker.svg)](https://hub.docker.com/r/dmcallejo/battalion-docker/builds/) [![Docker Stars](https://img.shields.io/docker/stars/dmcallejo/battalion-docker.svg)](https://hub.docker.com/r/dmcallejo/battalion-docker/)
 
 ## Running the image
 This will spawn a Battalion 1944 community server with the default options.
